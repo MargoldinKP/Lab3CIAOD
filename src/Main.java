@@ -19,7 +19,6 @@ public class Main {
             n =n-s[n];
         }
     }
-    static int q,k;
     public static int Kernel(int[] price, int n,int []s) {
         int[] val = new int[n + 1];
         val[0] = 0;
